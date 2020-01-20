@@ -6,6 +6,8 @@
 
 Algo VPN is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers. See our [release announcement](https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/) for more information.
 
+This fork of Algo allows users to deploy to Armbian Buster based targets.  It also performs a basic level of OS and SSHD hardening which is currently not performed by base Algo.
+
 ## Features
 
 * Supports only IKEv2 with strong crypto (AES-GCM, SHA2, and P-256) for iOS, macOS, and Linux
